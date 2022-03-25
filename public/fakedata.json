@@ -1,0 +1,48 @@
+[
+    {
+        "id": 1,
+        "name": "buddy",
+        "price": 3000,
+        "img": "https://i.natgeofe.com/n/3faa2b6a-f351-4995-8fff-36d145116882/domestic-dog_16x9.jpg"
+    },
+    {
+        "id": 2,
+        "name": "rocky",
+        "price": 5000
+    },
+    {
+        "id": 3,
+        "name": "leo",
+        "price": 5500
+    },
+    {
+        "id": 4,
+        "name": "zeus",
+        "price": 6000
+    },
+    {
+        "id": 5,
+        "name": "Toby",
+        "price": 6900
+    },
+    {
+        "id": 6,
+        "name": "Jax",
+        "price": 4000
+    },
+    {
+        "id": 7,
+        "name": "Koda",
+        "price": 4050
+    },
+    {
+        "id": 8,
+        "name": "Loki",
+        "price": 4090
+    },
+    {
+        "id": 9,
+        "name": "Moose",
+        "price": 7000
+    }
+]
