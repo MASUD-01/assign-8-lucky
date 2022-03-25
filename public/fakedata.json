@@ -9,13 +9,13 @@
         "id": 2,
         "name": "Rocky",
         "price": 5000,
-        "img": "https://i.natgeofe.com/n/3faa2b6a-f351-4995-8fff-36d145116882/domestic-dog_16x9.jpg"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsEG_USxuk_MBeckpfuxJzhmrG4tXaLWn5mQ&usqp=CAU"
     },
     {
         "id": 3,
         "name": "Leo",
         "price": 5500,
-        "img": "https://i.natgeofe.com/n/3faa2b6a-f351-4995-8fff-36d145116882/domestic-dog_16x9.jpg"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS350CRxB7cG97Yafq1qJahG60D8tLCVfvhTg&usqp=CAU"
     },
     {
         "id": 4,
@@ -27,7 +27,7 @@
         "id": 5,
         "name": "Toby",
         "price": 6900,
-        "img": "https://i.natgeofe.com/n/3faa2b6a-f351-4995-8fff-36d145116882/domestic-dog_16x9.jpg"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTCrTZkw_VLu_Xlm0YoNR7lLZwp2EFUg25aw&usqp=CAU"
     },
     {
         "id": 6,
@@ -39,18 +39,18 @@
         "id": 7,
         "name": "Koda",
         "price": 4050,
-        "img": "https://i.natgeofe.com/n/3faa2b6a-f351-4995-8fff-36d145116882/domestic-dog_16x9.jpg"
+        "img": "https://cdn.pixabay.com/photo/2016/12/13/05/15/puppy-1903313__340.jpg"
     },
     {
         "id": 8,
         "name": "Loki",
         "price": 4090,
-        "img": "https://i.natgeofe.com/n/3faa2b6a-f351-4995-8fff-36d145116882/domestic-dog_16x9.jpg"
+        "img": "https://images.freeimages.com/images/small-previews/3f8/dog-1383342.jpg"
     },
     {
         "id": 9,
         "name": "Moose",
         "price": 7000,
-        "img": "https://i.natgeofe.com/n/3faa2b6a-f351-4995-8fff-36d145116882/domestic-dog_16x9.jpg"
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS350CRxB7cG97Yafq1qJahG60D8tLCVfvhTg&usqp=CAU"
     }
 ]
