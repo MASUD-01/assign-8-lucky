@@ -26,7 +26,7 @@ const Dogs = () => {
 
                 </div>
             </div>
-            <div className='col-md-4 bg-secondary p-5 text-white text-center'>
+            <div className='col-md-4 bg-secondary p-5 text-white text-center sticky'>
                 <h2>Selected Dogs</h2>
                 <Cart name={name}></Cart>
             </div>

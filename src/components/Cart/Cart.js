@@ -5,7 +5,8 @@ const Cart = (props) => {
     return (
         <div>
             <h1>Name:{name}</h1>
-            <button></button>
+            <button>choose 1 for me</button>
+            <button>choose again</button>
         </div>
     );
 };
