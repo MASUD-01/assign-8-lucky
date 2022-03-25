@@ -1,6 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
 import Dogs from './components/Dogs/Dogs';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
