@@ -16,7 +16,7 @@ const Dogs = () => {
     }
     return (
         <div className='row'>
-            <div className='col-md-8'>
+            <div className='col-md-8 col-sm ms-auto'>
                 <div className='row ms-auto p-2'>
 
                     <h1 className='text-center mb-5'>Favourite Dogs</h1>
@@ -26,7 +26,7 @@ const Dogs = () => {
 
                 </div>
             </div>
-            <div className='col-md-4 bg-secondary p-5 text-white text-center sticky'>
+            <div className='col-md-4 col-sm bg-secondary p-5 text-white text-center sticky'>
                 <h2>Selected Dogs</h2>
                 <Cart name={name}></Cart>
             </div>

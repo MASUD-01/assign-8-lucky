@@ -9,8 +9,8 @@ const Singaldog = (props) => {
     const { img, name, price } = props.dog
     const { handleCart } = props
     return (
-        <div className='singaldog mb-2 col-md'>
-            <Card style={{ width: '18rem' }}>
+        <div className='singaldog mb-2 col-md col-sm ms-auto text-center'>
+            <Card style={{ width: '18rem' }} className="text-center">
                 <Card.Img variant="top" src={img} />
                 <Card.Body>
                     <Card.Title>{name}</Card.Title>
