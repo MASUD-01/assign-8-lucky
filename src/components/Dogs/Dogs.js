@@ -11,7 +11,6 @@ const Dogs = () => {
             .then(data => setDog(data))
     }, [])
     const [carts, setCart] = useState([])
-    console.log(carts)
     const handleCart = (products) => {
         const exists = carts.find(product => product.id === products.id);
         if (!exists) {
@@ -26,19 +25,20 @@ const Dogs = () => {
     }
     return (
         <div className='row'>
-            <div className='col-md-8 col-sm ms-auto'>
+            <div className='col-md-8 col-sm-12 ms-auto'>
                 <div className='row ms-auto p-2'>
 
                     <h1 className='text-center mb-5'>Favourite Dogs</h1>
+                    <h2 className='text-center mb-5'>Choose 4 Items</h2>
                     {
                         dogs.map(dog => <Singaldog key={dog.id} handleCart={handleCart} dog={dog}></Singaldog>)
                     }
 
                 </div>
             </div>
-            <div className='col-md-4 col-sm bg-secondary p-5 text-white text-center sticky'>
-                <h2>Selected Dogs</h2>
-                <Cart reset={resetSetProduct} added={carts}></Cart>
+            <div className='col-md-4 col-sm-12 bg-secondary p-5 text-white text-center sticky'>
+                <h1>Selected Dogs</h1>
+                <Cart reset={resetSetProduct} carts={carts}></Cart>
             </div>
         </div>
     );

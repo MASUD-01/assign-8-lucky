@@ -1,15 +1,15 @@
 import React from 'react';
 
 const Cart = (props) => {
+    const { carts, reset } = props
 
-    let id = []
+    let id = [];
     return (
 
         <div>
-            {props.added.map((item => <h5>{item.name}</h5>))}
-            {/* <h1>Name:{name}</h1> */}
-            <button>choose 1 for me</button>
-            <button onClick={() => { props.reset(id) }}>choose again</button>
+            {carts.map((item => <h5>{item.name}</h5>))}
+            <button className='btn btn-success mb-2' >choose 1 for me</button> <br></br>
+            <button className='btn btn-primary' onClick={() => { reset(id) }}>choose again</button>
         </div>
     );
 };

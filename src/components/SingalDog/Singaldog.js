@@ -7,22 +7,23 @@ import './Singaldog.css'
 
 const Singaldog = (props) => {
     const { img, name, price } = props.dog
-    // console.log(name)
     const { handleCart } = props
     return (
-        <div className='singaldog mb-2 col-md col-sm ms-auto text-center'>
-            <Card style={{ width: '18rem' }} className="text-center">
-                <Card.Img variant="top" src={img} />
-                <Card.Body>
-                    <Card.Title>{name}</Card.Title>
-                    <Card.Text>
-                        price:{price}
-                    </Card.Text>
-                    <button className='btn bg-primary w-100' onClick={() => handleCart(props.dog)}>
-                        <FontAwesomeIcon icon={faSquare} /><p className='w-100 text-white m-0 p-0'>addToCart</p>
-                    </button>
-                </Card.Body>
-            </Card>
+        <div className='singaldog mb-2 col-md col-sm-12 ms-auto text-center'>
+            <div>
+                <Card style={{ width: '18rem', margin: '0 auto' }} className="text-center">
+                    <Card.Img variant="top" className='ms-auto text-center' src={img} />
+                    <Card.Body>
+                        <Card.Title>{name}</Card.Title>
+                        <Card.Text>
+                            price:{price}
+                        </Card.Text>
+                        <button className='btn bg-primary w-100' onClick={() => handleCart(props.dog)}>
+                            <FontAwesomeIcon icon={faSquare} /><p className='w-100 text-white m-0 p-0'>addToCart</p>
+                        </button>
+                    </Card.Body>
+                </Card>
+            </div>
         </div>
     );
 };
