@@ -4,13 +4,12 @@ const Cart = (props) => {
     const { carts, reset } = props
 
     const [set, setCart] = useState([])
-    console.log(set)
     const chooseForMe = () => {
         const addedProducts = carts[Math.floor(Math.random() * carts.length)];
-        console.log(addedProducts)
         setCart(addedProducts)
-    }
 
+    }
+    //empty chhose again button
     let id = [];
     return (
 
