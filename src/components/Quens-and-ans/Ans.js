@@ -2,7 +2,7 @@ import React from 'react';
 
 const Ans = () => {
     return (
-        <div>
+        <div className='p-4'>
             <h2>Q:How React works?</h2>
             <p>Ans:react works unidirectional data flow. react creates its own virtual dom.if need any changes react compare to virtual DOM and Real DOM. Then adjectly where need changes,react do that immidiatley.</p>
 
