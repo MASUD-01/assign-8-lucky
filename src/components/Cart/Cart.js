@@ -1,12 +1,14 @@
 import React from 'react';
 
 const Cart = (props) => {
-    const { name } = props
-    // let store = [];
+    const { name } = props.added
+    console.log(props.added)
+
     return (
 
         <div>
-            <h1>Name:{name}</h1>
+            {props.added.map((item => <h5>{item.name}</h5>))}
+            {/* <h1>Name:{name}</h1> */}
             <button>choose 1 for me</button>
             <button>choose again</button>
         </div>

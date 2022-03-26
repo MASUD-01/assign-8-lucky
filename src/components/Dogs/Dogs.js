@@ -10,9 +10,16 @@ const Dogs = () => {
             .then(res => res.json())
             .then(data => setDog(data))
     }, [])
-    const [name, setName] = useState([])
-    const handleCart = (name) => {
-        setName(name)
+    const [carts, setCart] = useState([])
+    console.log(carts)
+    const handleCart = (products) => {
+        const exists = carts.find(product => product.id === products.id);
+        if (!exists) {
+            if (carts.length < 4) {
+                const newCarts = [...carts, products];
+                setCart(newCarts)
+            }
+        }
     }
     return (
         <div className='row'>
@@ -28,7 +35,7 @@ const Dogs = () => {
             </div>
             <div className='col-md-4 col-sm bg-secondary p-5 text-white text-center sticky'>
                 <h2>Selected Dogs</h2>
-                <Cart name={name}></Cart>
+                <Cart added={carts}></Cart>
             </div>
         </div>
     );

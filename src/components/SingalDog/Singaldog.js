@@ -7,6 +7,7 @@ import './Singaldog.css'
 
 const Singaldog = (props) => {
     const { img, name, price } = props.dog
+    // console.log(name)
     const { handleCart } = props
     return (
         <div className='singaldog mb-2 col-md col-sm ms-auto text-center'>
@@ -17,7 +18,7 @@ const Singaldog = (props) => {
                     <Card.Text>
                         price:{price}
                     </Card.Text>
-                    <button className='btn bg-primary w-100' onClick={() => handleCart(name)}>
+                    <button className='btn bg-primary w-100' onClick={() => handleCart(props.dog)}>
                         <FontAwesomeIcon icon={faSquare} /><p className='w-100 text-white m-0 p-0'>addToCart</p>
                     </button>
                 </Card.Body>
