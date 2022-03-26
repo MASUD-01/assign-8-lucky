@@ -21,6 +21,9 @@ const Dogs = () => {
             }
         }
     }
+    const resetSetProduct = (id) => {
+        setCart(id)
+    }
     return (
         <div className='row'>
             <div className='col-md-8 col-sm ms-auto'>
@@ -35,7 +38,7 @@ const Dogs = () => {
             </div>
             <div className='col-md-4 col-sm bg-secondary p-5 text-white text-center sticky'>
                 <h2>Selected Dogs</h2>
-                <Cart added={carts}></Cart>
+                <Cart reset={resetSetProduct} added={carts}></Cart>
             </div>
         </div>
     );
